@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'asset_manager'
+
+source_file = ARGV.first || "Assetfile"
+AssetManager::Runner(source_file)
